@@ -19,7 +19,6 @@ class node:
 
     def __str__(self):
         """
-
         :return: The value of the node
         """
         return self.value
@@ -68,7 +67,7 @@ def create_grid(height: int, width: int) -> list:
     return grid
 
 
-def manhattan_distance(current: node, goal: node):
+def manhattan_distance(current: node, goal: node)-> list:
     """
 
     :param current: The current node which is being searched in the pathfinding algorithm
